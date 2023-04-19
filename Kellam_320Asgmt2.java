@@ -22,7 +22,7 @@ import java.util.Scanner;
  * 
  * @author jskellam
  */
-public class Kellam_Mod2Asgmt2 {
+public class Kellam_320Asgmt2 {
 
     /**
      * @param args the command line arguments

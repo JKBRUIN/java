@@ -13,7 +13,7 @@
  * 
  * @author jskellam
  */
-public class Kellam_Mod1Asgmt1 {
+public class Kellam_320Asgmt1 {
     public static void main(String[] args) {
         System.out.println("Here is an equation with float type variables being used: 4 * ( 1.0 - 1.0 / 3.0 + 1.0 / 5.0 - 1.0 / 7.0 + 1.0 / 9.0 - 1.0 / 11.0 + 1.0 / 13.0 )");
         System.out.print("Math with float type variables will result in a float type variable to be returned= ");

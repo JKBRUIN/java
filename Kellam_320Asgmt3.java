@@ -16,7 +16,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Kellam_Mod3Asgmt3 {
+public class Kellam_320Asgmt3 {
     public static void main(String[] args) {
         System.out.println("Hello, we're going to try and play Rock-Paper-Scissors");
         System.out.println("You will input either 1 for Rock, 2 for Paper, or 3 for Scissors.");

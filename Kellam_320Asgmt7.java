@@ -40,6 +40,8 @@ public class Kellam_320Asgmt7 {
         } else {
             System.out.println("Your password is invalid");
         }
+
+        scanner.close();
     }
 
     public static boolean passwordValid(String userPass) {

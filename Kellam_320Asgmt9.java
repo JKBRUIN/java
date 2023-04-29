@@ -77,5 +77,7 @@ public class Kellam_320Asgmt9 {
         System.out.printf("The lowest entry was %d.\n", min);
         System.out.printf("The average of the entries was %.2f.\n", average);
         System.out.printf("The sum of the entries was %d.\n", sum);
+
+        input.close();
     }
 }

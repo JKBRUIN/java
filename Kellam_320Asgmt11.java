@@ -28,67 +28,67 @@
 public class Kellam_320Asgmt11 {
 
     public static int[] locateLargest(double[][] arrayParam) {
-        int maxRowIndex = 0; // the row index of the largest element found 
-        int maxColIndex = 0; // the column index of the largest element found
-        double maxVal = arrayParam[0][0]; // the value of the largest element found (initialized to the value of the first element in the array)
+        int largeRow = 0; // the row index of the largest element found 
+        int largeColumn = 0; // the column index of the largest element found
+        double largest = arrayParam[0][0]; // the value of the largest element found (initialized to the value of the first element in the array)
         for (int i = 0; i < arrayParam.length; i++) {
             for (int j = 0; j < arrayParam[i].length; j++) {
-                if (arrayParam[i][j] > maxVal) {
-                    maxVal = arrayParam[i][j];
-                    maxRowIndex = i;
-                    maxColIndex = j;
+                if (arrayParam[i][j] > largest) {
+                    largest = arrayParam[i][j];
+                    largeRow = i;
+                    largeColumn = j;
                 }
             }
         }
-        return new int[]{maxRowIndex, maxColIndex};
+        return new int[]{largeRow, largeColumn};
     }
     
     public static int[] locateLargest(int[][] arrayParam) {
-        int maxRowIndex = 0; // the row index of the largest element found 
-        int maxColIndex = 0; // the column index of the largest element found
-        int maxVal = arrayParam[0][0]; // the value of the largest element found (initialized to the value of the first element in the array)
+        int largeRow = 0; // the row index of the largest element found 
+        int largeColumn = 0; // the column index of the largest element found
+        int largest = arrayParam[0][0]; // the value of the largest element found (initialized to the value of the first element in the array)
         for (int i = 0; i < arrayParam.length; i++) {
             for (int j = 0; j < arrayParam[i].length; j++) {
-                if (arrayParam[i][j] > maxVal) {
-                    maxVal = arrayParam[i][j];
-                    maxRowIndex = i;
-                    maxColIndex = j;
+                if (arrayParam[i][j] > largest) {
+                    largest = arrayParam[i][j];
+                    largeRow = i;
+                    largeColumn = j;
                 }
             }
         }
-        return new int[]{maxRowIndex, maxColIndex};
+        return new int[]{largeRow, largeColumn};
     }
 
     public static int[] locateSmallest(double[][] arrayParam) {
-        int minRowIndex = 0; // the row index of the smallest element found 
-        int minColIndex = 0;
-        double minVal = arrayParam[0][0]; // the value of the smallest element found (initialized to the value of the first element in the array)
+        int smallRow = 0; // the row index of the smallest element found 
+        int smallColumn = 0;
+        double smallest = arrayParam[0][0]; // the value of the smallest element found (initialized to the value of the first element in the array)
         for (int i = 0; i < arrayParam.length; i++) {
             for (int j = 0; j < arrayParam[i].length; j++) {
-                if (arrayParam[i][j] < minVal) {
-                    minVal = arrayParam[i][j];
-                    minRowIndex = i;
-                    minColIndex = j;
+                if (arrayParam[i][j] < smallest) {
+                    smallest = arrayParam[i][j];
+                    smallRow = i;
+                    smallColumn = j;
                 }
             }
         }
-        return new int[]{minRowIndex, minColIndex};
+        return new int[]{smallRow, smallColumn};
     }
     
     public static int[] locateSmallest(int[][] arrayParam) {
-        int minRowIndex = 0; // the row index of the smallest element found 
-        int minColIndex = 0; // the column index of the largest element found
-        int minVal = arrayParam[0][0]; // the value of the smallest element found (initialized to the value of the first element in the array)
+        int smallRow = 0; // the row index of the smallest element found 
+        int smallColumn = 0; // the column index of the largest element found
+        int smallest = arrayParam[0][0]; // the value of the smallest element found (initialized to the value of the first element in the array)
         for (int i = 0; i < arrayParam.length; i++) {
             for (int j = 0; j < arrayParam[i].length; j++) {
-                if (arrayParam[i][j] < minVal) {
-                    minVal = arrayParam[i][j];
-                    minRowIndex = i;
-                    minColIndex = j;
+                if (arrayParam[i][j] < smallest) {
+                    smallest = arrayParam[i][j];
+                    smallRow = i;
+                    smallColumn = j;
                 }
             }
         }
-        return new int[]{minRowIndex, minColIndex};
+        return new int[]{smallRow, smallColumn};
     }        
     public static void main(String[] args) {
         int[][] intArray = {{88, 77}, {1, 2, 3}, {606, 505, 404, 303}, {1111, 9999, 3333, 5555, 7777}};

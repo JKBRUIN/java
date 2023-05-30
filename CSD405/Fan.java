@@ -5,7 +5,7 @@
  * 5/30/2023
  * 
  * Write a JAVA program with a class titled Fan. This class is to contain:
- *     Four constants named STOPPED, SLOW, MEDIUM, and FAST. The constants are to hold the values of 0, 1, 2, and 3 respectively.
+ *     Four constants named STOPPED, SLOW, MEDIUM, and FAST. The constants are to hold the values of 0, 1, 2, and 3 respectively. =DONE
  *     A private field named speed that holds one of the constant values with the default being STOPPED.
  *     A private Boolean field titled on that specifies whether the fan is on or off.
  *     A private field named radius that holds the radius of the fan with a default value of 6.
@@ -22,5 +22,8 @@
     public static final int SLOW = 1;
     public static final int MEDIUM = 2;
     public static final int FAST = 3;
+
+    private int speed;
     
+
  }

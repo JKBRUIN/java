@@ -24,18 +24,18 @@ import java.util.Collection;
 
  public class Kellam_405Asgmt2{
 
-   public static void main(String[] args) {
-      UseFans useFans = new UseFans();    
+    public static void main(String[] args) {
+        UseFans useFans = new UseFans();    
 
-      Collection<Fan> fans = new ArrayList<>();
-      fans.add(new Fan());
-      fans.add(new Fan(Fan.MEDIUM, true, 8, "blue"));
-      useFans.displayfans(fans);
+        Collection<Fan> fans = new ArrayList<>();
+        fans.add(new Fan());
+        fans.add(new Fan(Fan.MEDIUM, true, 8, "blue"));
+        useFans.displayfans(fans);
 
-      Fan fan = new Fan(Fan.FAST, true, 10, "red");
-      useFans.displayFan(fan);
-   }
- }
+        Fan fan = new Fan(Fan.FAST, true, 10, "red");
+        useFans.displayFan(fan);
+    }
+}
 
  class UseFans {
     public void displayfans(Collection<Fan> fans) {
@@ -112,5 +112,4 @@ import java.util.Collection;
   public void setColor(String color) {
       this.color = color;
   }
-
- }
+}

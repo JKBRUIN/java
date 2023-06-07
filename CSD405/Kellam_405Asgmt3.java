@@ -10,47 +10,14 @@ public class Kellam_405Asgmt3 {
         JeremiahInteger num2 = new JeremiahInteger(1984);
         JeremiahInteger num3 = new JeremiahInteger(99);
 
-        System.out.println(num1.isEven());        // Should be false
-        System.out.println(num1.isOdd());         // Should be true
-        System.out.println(num1.isPrime());       // Should be true
-        System.out.println("");
-
-        System.out.println(num2.isEven());        // Should be true
-        System.out.println(num2.isOdd());         // Should be false
-        System.out.println(num2.isPrime());       // Should be false
-        System.out.println("");
-        
-        System.out.println(num3.isEven());        // Should be false
-        System.out.println(num3.isOdd());         // Should be true
-        System.out.println(num3.isPrime());       // Should be false
-        System.out.println("");
-        
-        System.out.println(JeremiahInteger.isEven(6));     // true
-        System.out.println(JeremiahInteger.isOdd(6));      // false
-        System.out.println(JeremiahInteger.isPrime(6));    // false
-        System.out.println("");
-        
-        System.out.println(JeremiahInteger.isEven(Integer.valueOf(2)));    // true
-        System.out.println(JeremiahInteger.isOdd(Integer.valueOf(2)));     // false
-        System.out.println(JeremiahInteger.isPrime(Integer.valueOf(2)));   // true
-        System.out.println("");
-        
-        System.out.println(num1.equals(17));                    //true
-        System.out.println(num1.equals(Integer.valueOf(17)));     //true
-        System.out.println(num1.equals(21));                    //false
-        System.out.println(num1.equals(Integer.valueOf(21)));     //false
-        System.out.println("");
-        
-        System.out.println(num2.equals(1984));                  //true
-        System.out.println(num2.equals(Integer.valueOf(1984)));   //true
-        System.out.println(num2.equals(21));                    //false
-        System.out.println(num2.equals(Integer.valueOf(21)));     //false
-        System.out.println("");
-        
-        System.out.println(num3.equals(99));                    //true
-        System.out.println(num3.equals(Integer.valueOf(99)));     //true
-        System.out.println(num3.equals(21));                    //false
-        System.out.println(num3.equals(Integer.valueOf(21)));     //false
+        System.out.println(num1.isEven() + " " + num1.isOdd() + " " + num1.isPrime()); //false true true
+        System.out.println(num2.isEven() + " " + num2.isOdd() + " " + num2.isPrime()); //true false false
+        System.out.println(num3.isEven() + " " + num3.isOdd() + " " + num3.isPrime()); //false true false
+        System.out.println(JeremiahInteger.isEven(6) + " " + JeremiahInteger.isOdd(6) + " " + JeremiahInteger.isPrime(6)); //true false false
+        System.out.println(JeremiahInteger.isEven(Integer.valueOf(2)) + " " + JeremiahInteger.isOdd(Integer.valueOf(2)) + " " + JeremiahInteger.isPrime(Integer.valueOf(2))); //true false true
+        System.out.println(num1.equals(17) + " " + num1.equals(Integer.valueOf(17)) + " " + num1.equals(21) + " " + num3.equals(Integer.valueOf(21))); //true true false false
+        System.out.println(num2.equals(1984) + " " + num2.equals(Integer.valueOf(1984)) + " " + num2.equals(21) + " " + num3.equals(Integer.valueOf(21))); //true true false false
+        System.out.println(num3.equals(99) + " " + num3.equals(Integer.valueOf(99)) + " " + num3.equals(21) + " " + num3.equals(Integer.valueOf(21))); //true true false false
     }
 }
 

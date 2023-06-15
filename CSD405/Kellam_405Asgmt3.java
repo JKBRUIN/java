@@ -3,6 +3,27 @@
  * CSD 405
  * Module 3 Assignment
  * 6/6/2023
+ * 
+ * Create a class titled Integer.  Examples:
+
+    AnnaInteger
+    LarryInteger
+    SueInteger
+    Etc.
+
+
+This class is to contain:
+
+        An int data field titled with your first name.
+        A constructor that takes and sets the initial value.
+        Getter and setter methods.
+        Non-Static methods titled isEven(), isOdd(), and isPrime() returning true or false based on the variable’s value.
+        Static methods with signatures isEven(int), isOdd(int), and isPrime(int) with the same basic logic as the previous methods with results based on the parameter.
+        Static methods with signatures isEven( Integer), isOdd( Integer), and isPrime( Integer) with the same basic logic as the previous methods with results based on the parameter.
+        The methods equals(int) and equals( Integer) which returns true if int values are equal and false if they are not.
+        Write test code that creates three instances, two with the same value, and one with a different value.
+        Write test code that ensures all methods function correctly.
+
  */
 public class Kellam_405Asgmt3 {
     public static void main(String[] args) {

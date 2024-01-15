@@ -1,8 +1,11 @@
 /*
  * CSD 405
- * Module 1 Assignment
+ * Module 1.2 Assignment
  * Jeremiah Kellam
- * 5/30/2023
+ * 1/14/2024
+ * 
+ * This is the program I wrote for the class before I had to withdraw due to a family medical emergency.
+ * If there is an issue using my work, please let me know.  
  * 
  * Write a JAVA program with a class titled Fan. This class is to contain:
  *     Four constants named STOPPED, SLOW, MEDIUM, and FAST. The constants are to hold the values of 0, 1, 2, and 3 respectively. =DONE

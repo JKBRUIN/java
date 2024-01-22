@@ -2,7 +2,10 @@
  * Jeremiah Kellam
  * CSD 405
  * Module 3 Assignment
- * 6/6/2023
+ * 1/21/2024
+ * 
+ * This is the program I wrote for the class before I had to withdraw due to a family medical emergency.
+ * If there is an issue using my work, please let me know.  
  * 
  * Create a class titled Integer.  Examples:
 

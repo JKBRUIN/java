@@ -2,7 +2,10 @@
  * CSD 405
  * Module 2 Assignment
  * Jeremiah Kellam
- * 5/30/2023
+ * 1/21/2024
+ * 
+ * This is the program I wrote for the class before I had to withdraw due to a family medical emergency.
+ * If there is an issue using my work, please let me know.  
  * 
  * Starting with your code from Module 1 create the following new class titled UseFans:
  *     Create a collection of Fan instances. =DONE

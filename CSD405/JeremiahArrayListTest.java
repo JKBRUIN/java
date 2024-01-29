@@ -4,6 +4,9 @@
  * Module 4 Assignment
  * 6/13/2023
  * 
+ *  * This is the program I wrote for the class before I had to withdraw due to a family medical emergency.
+ * If there is an issue using my work, please let me know.  
+ * 
  * Create a class <yourName>ArrayListTest =Done
  * 
  * This class is to contain:
@@ -35,6 +38,9 @@ public class JeremiahArrayListTest {
             input = scanner.nextInt();
             integers.add(input);
         } while (input != 0);
+
+        // Close the scanner after input is done
+        scanner.close();
 
         int maxNumber = max(integers);
         int minNumber = min(integers);

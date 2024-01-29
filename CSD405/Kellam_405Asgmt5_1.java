@@ -2,7 +2,11 @@
  * Jeremiah Kellam
  * CSD 405
  * Module 5 Assignment Program #1
- * 6/13/2023
+ * 1/28/2024
+ * 
+ *  This is the program I wrote for the class before I had to withdraw due to a family medical emergency.
+ * If there is an issue using my work, please let me know.  
+ * 
  * 
  *Assignment:
      Program 1: 
@@ -27,6 +31,7 @@ public class Kellam_405Asgmt5_1 {
         program1.add("Undergarments");
         program1.add("Clothes");
         program1.add("Shoes");
+        program1.add("Phone");
         program1.add("Wallet");
         program1.add("Keys");
         program1.add("Coffee");
@@ -40,10 +45,10 @@ public class Kellam_405Asgmt5_1 {
         boolean validInput = false;
 
         while (!validInput) {
-            System.out.println("Enter the index (element #) of what you would like to see again: ");
+            System.out.println("While remembering 'n-1' for indexing, please enter the index (element #) of what you would like to see again: ");
             try {
-                int index = scanner.nextInt();
-                String selectedElement = program1.get(index);
+                Integer index = scanner.nextInt(); //Autoboxing int to Integer
+                String selectedElement = program1.get(index); //Auto-unboxing Integer to int
                 System.out.println("Selected element: " + selectedElement);
                 validInput = true;
             } catch (IndexOutOfBoundsException e) {

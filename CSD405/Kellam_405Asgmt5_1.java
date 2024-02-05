@@ -2,10 +2,7 @@
  * Jeremiah Kellam
  * CSD 405
  * Module 5 Assignment Program #1
- * 1/28/2024
- * 
- *  This is the program I wrote for the class before I had to withdraw due to a family medical emergency.
- * If there is an issue using my work, please let me know.  
+ * 1/28/2024 
  * 
  * 
  *Assignment:

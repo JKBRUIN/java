@@ -4,10 +4,6 @@
  * Module 5 Assignment Program #2
  * 1/28/2024
  *  
- * 
- *  This is the program I wrote for the class before I had to withdraw due to a family medical emergency.
- * If there is an issue using my work, please let me know.  
- * 
  * Assignment:
  *      Program 2: Write a program to create a new file titled data.file, if the file does not exist. 
  *      Then write to the new file, adding 10 randomly generated numbers, or append 10 randomly generated numbers to a previous file. 
@@ -66,7 +62,7 @@ public class Kellam_405Asgmt5_2 {
         } 
         
         catch (IOException e) {
-            e.printStackTrace(); //runtime environment (JVM) generates a stack trace to provide the sequence of method calls that led to an exception
+            e.printStackTrace(); //runtime environment (JVM) generates a printStackTrace() to provide the location of the exception and the location/sequence of method calls that led to an exception
         }
     }
 }

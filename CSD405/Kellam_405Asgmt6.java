@@ -19,18 +19,21 @@
  *      a field for the state in which the division is located =Done
  *      and a constructor that requires all fields when created. =Done
  * 
- * I CAN"T FIGURE THIS ONE OUT!!!
+ * I CAN"T FIGURE THIS ONE OUT!? The book doesn't give enough abstract examples, online research just says it needs static as an entry point, but with it, it won't run the instances. 
+ * 
  * Write an application named UseDivision that creates two instances of each of these concrete classes (4 total instances).
  *  Save the files as: 
  *      Division
  *      InternationalDivision
  *      DomesticDivision
  *      UseDivision
+ * 
+ * Was I missing the point of the exercise and supposed to just be making data files of these?
  */
 
 public class Kellam_405Asgmt6 {
     public static void main(String[] args) {
-        System.out.println("I can't get this to run without a 'static' main(String[]) and can't figure it out. I do however have four classes created when I compile.  What am I missing?");
+        System.out.println("I can't get this to run without a 'static' main(String[]) and can't figure it out. I do however have four classes created if I remove static from the main method and compile the file.  What am I missing?  The book barely gave abstract examples, and it won't run an instance method (pg341-344) if I use static.");
     }
     
     //Create an abstract Division class

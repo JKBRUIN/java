@@ -32,10 +32,7 @@
  */
 
 public class Kellam_405Asgmt6 {
-    public static void main(String[] args) {
-        System.out.println("I can't get this to run without a 'static' main(String[]) and can't figure it out. I do however have four classes created if I remove static from the main method and compile the file.  What am I missing?  The book barely gave abstract examples, and it won't run an instance method (pg341-344) if I use static.");
-    }
-    
+
     //Create an abstract Division class
     public abstract class Division {
         //private fields for variables

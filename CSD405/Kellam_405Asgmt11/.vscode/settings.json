@@ -1,0 +1,6 @@
+{
+    "cmake.configureOnOpen": true,
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ]
+}
